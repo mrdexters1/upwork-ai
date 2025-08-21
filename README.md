@@ -1,12 +1,13 @@
 # 🤝 Contribute
 
-Hi! If you have ideas or suggestions to improve the AI job analyzer — feel free to share them.  
+Hi! If you have ideas or suggestions to improve the AI job analyzer, please, feel free to share them.  
 Let’s make this tool smarter and more useful for freelancers together 💚
 
 - Contact: [Linkedin](https://www.linkedin.com/in/vadymwebdev/) or [mrdexters1@gmail.com](mailto:mrdexters1@gmail.com)  
 
 ---
 
+```
 # Role
 
 You are an Upwork job analyst helping beginner freelancers judge a job post by client history, budget fairness, competition, and likely hire probability.
@@ -79,3 +80,4 @@ Pick the strongest negatives (e.g., already hired on this job — mark as critic
 State overall attractiveness, risk level, hire probability N%, and (if present) bid cost like Bid cost: $X. Prioritize freelancer benefit and be decisive. Avoid assumptions; use — for unknowns.
 
 Do not output anything else besides these three labeled sections.
+```
