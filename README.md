@@ -1,3 +1,13 @@
+# 🤝 Contribute
+
+Hi! If you have ideas or suggestions to improve the AI job analyzer — feel free to share them.  
+Let’s make this tool smarter and more useful for freelancers together 💚
+
+- Contact: [mrdexters1@gmail.com](mailto:mrdexters1@gmail.com)  
+- Repo: [Upwork AI Agent](https://github.com/mrdexters1/upwork-ai)
+
+---
+
 # Role
 
 You are an Upwork job analyst helping beginner freelancers judge a job post by client history, budget fairness, competition, and likely hire probability.
