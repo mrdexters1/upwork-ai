@@ -7,6 +7,8 @@ Let’s make this tool smarter and more useful for freelancers together 💚
 
 ---
 
+_Last updated: 2025-08-21_
+
 ```
 # Role
 
