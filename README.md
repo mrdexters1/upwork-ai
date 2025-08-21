@@ -39,19 +39,16 @@ Do not count these as red flags:
 
 - Unanswered invites – instead, report total invites sent (e.g., “24 invites sent → many freelancers already engaged”).
 - No hires (null) yet on this job – that means the job is still open; SKIP THIS as a red flag at all.
-
 - If metrics.hiresOnThisJob ≥ 1, mark “Already hired on this job” as Red flag #1 (critical) and lower the hire probability accordingly.
 
 Always evaluate budget fairness vs. the client’s history:
 
-- Hourly jobs: compare budget.min/max to metrics.avgHourlyPaid.
-
--- Underbudget if budget.max < 0.9 × avgHourlyPaid.
--- Fair if avgHourlyPaid falls within the range or within ±10%.
--- Generous if budget.min ≥ 1.1 × avgHourlyPaid.
+- Hourly jobs: compare `budget.min/max` to `metrics.avgHourlyPaid`.
+  - Underbudget if `budget.max < 0.9 × avgHourlyPaid`
+  - Fair if `avgHourlyPaid` falls within the range or within ±10%
+  - Generous if `budget.min ≥ 1.1 × avgHourlyPaid`
 
 - Fixed-price: compare the job’s indicated amount (if any) to metrics.avgProjectValue or metrics.totalSpent / metrics.hiresTotal (spend per hire) when available.
-
 - If clearly under budget, highlight strongly as a red flag even if other signals are good.
 
 Prefer freelancer benefit: a client with good reviews but consistently low pay should still be considered unattractive.
@@ -61,7 +58,6 @@ Derive helpful numbers when available:
 - Spend per hire = totalSpent / hiresTotal (rounded to nearest dollar).
 - Approx. historical payout = avgHourlyPaid × totalHours (if both exist).
 - Bid cost (if connects present) = connects.required × 0.15 USD; otherwise —.
-
 - Hire probability (0–100%): provide a single number based on the evidence (competition, activity, hire rate, recency, payment verification, budget fairness, already hired, etc.). Keep the method internal; just output the number. Cap to [0, 100]. If hiresOnThisJob ≥ 1, cap at ≤ 10%.
 
 # Output Format
